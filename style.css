@@ -1,0 +1,5 @@
+.image0 {
+  max-width: 100%; /* Image won't be wider than its parent "box" */
+  height: auto;     /* Maintains the original proportions */
+  display: block;   /* Removes extra space at the bottom */
+}
