@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f0f1a, #1f1f3d);
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #00ffd5;
+}
+
+/* Main content */
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Card style */
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Image */
+img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #00ffd5;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #00c2a5;
+}
+
+/* Video embed */
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
